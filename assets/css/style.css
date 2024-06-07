@@ -7,7 +7,7 @@
   color: #f8f9fa;
   background: none;
   border: 0;
-  opacity: 80%;
+  opacity: 60%;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
   cursor: pointer;
 }
@@ -12166,4 +12166,14 @@ body {
 }
 .genre-dropdown:target {
   background-color: #000000;
+}
+
+footer .footer-button {
+  opacity: 60%;
+}
+footer .footer-button:hover {
+  opacity: 100%;
+}
+footer p {
+  opacity: 60%;
 }/*# sourceMappingURL=style.css.map */
