@@ -25,3 +25,29 @@ footer {
     opacity: 60%;
   }
 }
+
+.general-btn {
+  border-radius: unset;
+  opacity: 60%;
+  &:hover {
+    color: #000000;
+    background-color: white;
+    opacity: 100%;
+  }
+}
+
+.container-inside {
+  max-width: 60%;
+  margin-inline: auto;
+}
+
+.general-btn-danger {
+  opacity: 60%;
+  border-radius: unset;
+  &:hover {
+    background-color: $danger;
+    outline: $danger;
+    opacity: 100%;
+    border-color: $danger;
+  }
+}
