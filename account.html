@@ -23,12 +23,27 @@
     </header>
 
     <div class="container text-center text-md-start container-inside my-5">
-        <div class="row justify-content-center ">
-            <h1 class="col-12">Edit Profile</h1>
-            <hr>
-            <div class="col-12 row">
-                <div class="col-12 col-md-4 mb-3 mb-md-0">
-                    <img src="./assets/avatar.png" alt="" width="150px" id="profile-pic">
+        <h1 class="mb-4 pb-2 border-bottom">Edit Profile</h1>
+        <div class="row mb-5 align-items-start justify-content-center justify-content-md-start">
+            <div class="col-8 col-lg-3 position-relative mb-4">
+                <img src="./assets/avatar.png" alt="profile-image" class="profile-pic" />
+                <i class="fa-solid fa-pen position-absolute"></i>
+            </div>
+            <div class="col-12 col-md-8 text-center text-md-start align-items-start">
+                <div class="border-bottom mb-3">
+                    <input type="text" placeholder="Your account name" class="p-2 mb-3">
+                    <div class="dropdown mb-4">
+                        <label for="language-dropdown" class="form-label">Language</label>
+                        <button class="d-block btn border border-2 dropdown-toggle px-4 genre-dropdown" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false" id="language-dropdown">
+                            English
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="#">Italian</a></li>
+                            <li><a class="dropdown-item" href="#">Spanish</a></li>
+                            <li><a class="dropdown-item" href="#">Русский</a></li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="border-bottom mb-3">
                     <p>Maturity Settings:</p>
