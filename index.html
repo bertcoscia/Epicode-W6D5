@@ -15,9 +15,9 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<body>
+<body data-bs-theme="dark">
 
-    <nav class="navbar navbar-expand-md bg-body-dark" id="navBar" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-md bg-body-dark" id="navBar">
         <div class="container-fluid align-items-center ">
             <a class="navbar-brand" href="#">
                 <img src="./assets/netflix_logo.png" alt="logo netfix" width="120px">
@@ -81,6 +81,40 @@
             </div>
         </div>
     </nav>
+
+
+    <main class="container-fluid justify-content-start">
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="d-flex column-gap-3">
+                <h1>TV Shows</h1>
+                <div class="dropdown">
+                    <button class="btn border border-2 dropdown-toggle px-4 genre-dropdown" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Genres
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item active" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Horror</a></li>
+                        <li><a class="dropdown-item" href="#">Fantasy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="d-flex">
+                <div class="border border-2 py-1 px-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                    </svg>
+                </div>
+                <div class="border border-2 py-1 px-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </main>
 
 
 

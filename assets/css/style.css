@@ -141,8 +141,8 @@
   color-scheme: dark;
   --bs-body-color: #dee2e6;
   --bs-body-color-rgb: 222, 226, 230;
-  --bs-body-bg: #212529;
-  --bs-body-bg-rgb: 33, 37, 41;
+  --bs-body-bg: #141414;
+  --bs-body-bg-rgb: 20, 20, 20;
   --bs-emphasis-color: #fff;
   --bs-emphasis-color-rgb: 255, 255, 255;
   --bs-secondary-color: rgba(222, 226, 230, 0.75);
@@ -318,8 +318,8 @@
   color-scheme: dark;
   --bs-body-color: #dee2e6;
   --bs-body-color-rgb: 222, 226, 230;
-  --bs-body-bg: #212529;
-  --bs-body-bg-rgb: 33, 37, 41;
+  --bs-body-bg: #141414;
+  --bs-body-bg-rgb: 20, 20, 20;
   --bs-emphasis-color: #fff;
   --bs-emphasis-color-rgb: 255, 255, 255;
   --bs-secondary-color: rgba(222, 226, 230, 0.75);
@@ -3847,8 +3847,8 @@ textarea.form-control-lg {
 
 .dropdown-menu-dark {
   --bs-dropdown-color: #dee2e6;
-  --bs-dropdown-bg: #343a40;
-  --bs-dropdown-border-color: var(--bs-border-color-translucent);
+  --bs-dropdown-bg: #000000;
+  --bs-dropdown-border-color: #616161;
   --bs-dropdown-box-shadow: ;
   --bs-dropdown-link-color: #dee2e6;
   --bs-dropdown-link-hover-color: #fff;
@@ -12156,5 +12156,14 @@ textarea.form-control-lg {
 }
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #141414;
+}
+
+.genre-dropdown {
+  background-color: #000000;
+}
+.genre-dropdown:hover {
+  background-color: #000000;
+}
+.genre-dropdown:target {
+  background-color: #000000;
 }/*# sourceMappingURL=style.css.map */
