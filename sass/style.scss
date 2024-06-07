@@ -66,3 +66,12 @@ footer {
     cursor: pointer;
   }
 }
+
+.show {
+  cursor: pointer;
+  transition: transform 300ms;
+  &:hover {
+    transform: scale(1.2);
+    z-index: 99;
+  }
+}
