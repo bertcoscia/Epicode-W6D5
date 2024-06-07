@@ -12202,4 +12202,17 @@ footer p {
   outline: #dc3545;
   opacity: 100%;
   border-color: #dc3545;
+}
+
+.row .profile-pic {
+  width: 100%;
+}
+.row .fa-pen {
+  bottom: 5px;
+  left: 15px;
+  padding: 2px;
+  background-color: #141414;
+  border-radius: 40px;
+  border: 1px solid white;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */

@@ -51,3 +51,18 @@ footer {
     border-color: $danger;
   }
 }
+
+.row {
+  .profile-pic {
+    width: 100%;
+  }
+  .fa-pen {
+    bottom: 5px;
+    left: 15px;
+    padding: 2px;
+    background-color: $body-bg-dark;
+    border-radius: 40px;
+    border: 1px solid white;
+    cursor: pointer;
+  }
+}
