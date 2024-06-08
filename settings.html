@@ -100,8 +100,29 @@
                 <div class="col-12 row border-top border-2 pt-3">
                     <div class="d-flex flex-column col-12 col-md-4 ">
                         <p class="text-muted lead">MEMBERSHIP & BILLING</p>
-                        <button type="button" class="btn-cancel-membership py-3 mx-auto mx-md-0 mb-3 mb-md-0">CANCEL MEMBERSHIP</button>
+                        <button type="button" class="btn-cancel-membership py-3 mx-auto mx-md-0 mb-3 mb-md-0" data-bs-toggle="modal"
+                            data-bs-target="#cancelMembershipModal">CANCEL MEMBERSHIP</button>
                     </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="cancelMembershipModal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="ModalLabel">Cancel Membership</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Are you sure you want to cancel your subscription? <br>
+                                    <strong>The action is irreversible</strong>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-danger">Cancel membership</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="col-12 col-md-8">
                         <div class="d-flex justify-content-between">
                             <p><strong>student@strive.school</strong></p>
