@@ -78,7 +78,26 @@
         <div class="col-12 d-flex flex-column align-items-center flex-md-row justify-content-md-evenly">
             <button class="d-block d-md-inline-block btn border border-2 px-4 my-3 general-btn">SAVE</button>
             <button class="d-block d-md-inline-block btn border border-2 px-4 my-3 general-btn">CANCEL</button>
-            <button class="d-block d-md-inline-block btn border border-2 px-4 my-3 general-btn-danger">DELETE PROFILE</button>
+            <button class="d-block d-md-inline-block btn border border-2 px-4 my-3 general-btn-danger" data-bs-toggle="modal"
+                data-bs-target="#deleteProfileModal">DELETE PROFILE</button>
+            <div class="modal fade" id="deleteProfileModal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered text-light">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="ModalLabel">Delete Profile</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Are you sure you want to delete your profile? <br>
+                            <strong>The action is irreversible</strong>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-danger">Cancel membership</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
