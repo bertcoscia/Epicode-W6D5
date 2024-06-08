@@ -12233,4 +12233,20 @@ a {
 
 .custom-icon:hover {
   fill: #dee2e6;
+}
+
+.btn-cancel-membership {
+  max-width: 60%;
+  border: none;
+  border-radius: 3px;
+}
+.btn-cancel-membership:hover {
+  background-color: #dc3545;
+  outline: #dc3545;
+  border-color: #dc3545;
+  color: #f8f9fa;
+}
+
+.settings-body {
+  background-color: #f2f2f2;
 }/*# sourceMappingURL=style.css.map */

@@ -86,3 +86,19 @@ a {
 .custom-icon:hover {
   fill: #dee2e6;
 }
+
+.btn-cancel-membership {
+  max-width: 60%;
+  border: none;
+  border-radius: 3px;
+  &:hover {
+    background-color: $danger;
+    outline: $danger;
+    border-color: $danger;
+    color: $light;
+  }
+}
+
+.settings-body {
+  background-color: #f2f2f2;
+}

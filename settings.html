@@ -16,7 +16,7 @@
     <link rel="shortcut icon" href="https://assets.nflxext.com/ffe/siteui/common/icons/nficon2016.ico" type="image/x-icon">
 </head>
 
-<body>
+<body class="settings-body">
 
     <nav class="navbar navbar-expand-md bg-black" id="navBar" data-bs-theme="dark">
         <div class="container-fluid align-items-center ">
@@ -73,9 +73,7 @@
                     <li class="nav-item d-none d-md-inline-block">
                         <div class="dropdown-center">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-
                                 <img src="./assets/avatar.png" alt="" width="30px">
-
                             </a>
                             <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
                                 <li><a class="dropdown-item" href="./account.html">Account</a></li>
@@ -93,14 +91,13 @@
     </nav>
 
     <main>
-        <div class="container">
+        <div class="container my-5">
             <div class="row">
-                <h1 class="col-12">Account</h1>
-                <hr>
-                <div class="col-12 row border-bottom">
+                <h1 class="col-12 mb-3">Account</h1>
+                <div class="col-12 row border-top border-2 pt-3">
                     <div class="d-flex flex-column col-4">
                         <p class="text-muted lead">MEMBERSHIP & BILLING</p>
-                        <button>Cancel Membership</button>
+                        <button type="button" class="btn-cancel-membership py-3">CANCEL MEMBERSHIP</button>
                     </div>
                     <div class="col-8">
                         <div class="d-flex justify-content-between">
@@ -111,7 +108,7 @@
                             <p class="text-muted">Password: *********</p>
                             <a href="#">Change password</a>
                         </div>
-                        <div class="d-flex justify-content-between border-bottom mb-3 pb-2">
+                        <div class="d-flex justify-content-between border-bottom border-2 mb-3 pb-2">
                             <p class="text-muted">Phone: 321 044 1279</p>
                             <a href="#">Change phone number</a>
                         </div>
@@ -120,7 +117,7 @@
                             </p>
                             <a href="#">Update payment info</a>
                         </div>
-                        <div class="d-flex justify-content-end border-bottom mb-3 pb-2">
+                        <div class="d-flex justify-content-end border-bottom border-2 mb-3 pb-2">
                             <a href="#">Billing details</a>
                         </div>
                         <div class="d-flex justify-content-end pb-3">
@@ -131,12 +128,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12">
-                    <div class="col-12 row border-bottom">
+                <div class="col-12 mb-3">
+                    <div class="col-12 row border-top border-bottom border-2 pt-3">
                         <div class="col-4">
                             <p class="text-muted lead">PLAN DETAILS</p>
                         </div>
-                        <di class="col-8 d-flex justify-content-between align-items-center">
+                        <di class="col-8 d-flex justify-content-between">
                             <div class="d-flex column-gap-2">
                                 <p><strong>Premium</strong></p>
                                 <svg height="20px" viewBox="0 0 4770 960" class="quality-icon">
@@ -154,9 +151,9 @@
                     </div>
                 </div>
                 <div class="col-12">
-                    <div class="col-12 row border-bottom">
+                    <div class="col-12 row border-bottom border-2 pb-3 mb-3">
                         <div class="col-4">
-                            <p class="text-muted lead">SETTINGS</p>
+                            <p class="text-muted lead fs-5">SETTINGS</p>
                         </div>
                         <di class="col-8 d-flex flex-column justify-content-start row-gap-2">
                             <a href="#">Parental controls</a>
@@ -166,9 +163,31 @@
                             <a href="#">Recent device streaming activity</a>
                             <a href="#">Sign out of all devices</a>
                     </div>
+                    <div class="col-12 mb-3">
+                        <div class="col-12 row border-bottom border-2 pb-3">
+                            <div class="col-4">
+                                <p class="text-muted lead fs-5">MY PROFILE</p>
+                            </div>
+                            <di class="col-8 d-flex flex-column justify-content-start row-gap-2 row">
+                                <div class="d-flex justify-content-between col-12">
+                                    <p><span><img src="./assets/avatar.png" alt="" width="40px" class="me-3"></span><strong>Strive Student</strong>
+                                    </p>
+                                    <div class="d-flex flex-column align-items-end">
+                                        <a href="">Manage profiles</a>
+                                        <a href="">Add profile email</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 row d-flex justify-content-between gy-2">
+                                    <a href="#" class="col-6">Language</a>
+                                    <a href="#" class="col-6">Viewing activity</a>
+                                    <a href="#" class="col-6">Playback settings</a>
+                                    <a href="#" class="col-6">Ratings</a>
+                                    <a href="#" class="col-6">Subtitle appearance</a>
+                                </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
         </div>
     </main>
 
