@@ -67,12 +67,14 @@ footer {
   }
 }
 
-.show {
-  cursor: pointer;
-  transition: transform 300ms;
-  &:hover {
-    transform: scale(1.2);
-    z-index: 99;
+.container-fluid .my-4 {
+  .col {
+    cursor: pointer;
+    transition: transform 300ms;
+    &:hover {
+      transform: scale(1.2);
+      z-index: 99;
+    }
   }
 }
 

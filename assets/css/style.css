@@ -12217,11 +12217,11 @@ footer p {
   cursor: pointer;
 }
 
-.show {
+.container-fluid .my-4 .col, .container-sm .my-4 .col, .container-md .my-4 .col, .container-lg .my-4 .col, .container-xl .my-4 .col, .container-xxl .my-4 .col {
   cursor: pointer;
   transition: transform 300ms;
 }
-.show:hover {
+.container-fluid .my-4 .col:hover, .container-sm .my-4 .col:hover, .container-md .my-4 .col:hover, .container-lg .my-4 .col:hover, .container-xl .my-4 .col:hover, .container-xxl .my-4 .col:hover {
   transform: scale(1.2);
   z-index: 99;
 }
